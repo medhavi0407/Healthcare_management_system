@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title></title>
+    <script type="text/javascript">	</script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-image:url('https://i.pinimg.com/originals/72/21/1d/72211d6b555afea993fd8ddc39bc2172.jpg');">
+    <input type="text" placeholder="WANT TEST FROM HOME/HOSPITAL(HOME/HOSP) " id="inputId">
+    <button type="button" onclick="getInputValue();">SUBMIT</button>
+    <script>
+        function getInputValue() {
+            let inputVal = document.getElementById("inputId").value;
+            if (inputVal == "HOME") {
+                window.location.replace("patient.html");
+            }
+            else {
+                window.location.replace("");
+            }
+        }
+    </script>
+
+<a href="home.html">Back to home page</a>
+</body>
+
+</html>
